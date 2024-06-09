@@ -1,0 +1,37 @@
+/* Advertising */
+
+.advertising-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.adv-options-modal {
+  max-width: 600px;
+  overflow-y: auto;
+}
+
+.adv-options-modal-header {
+  border-bottom: none;
+}
+
+.advertising-options-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.advertising-options-item {
+  width: 480px;
+  margin: 10px;
+  box-shadow: 0 0 5px 0 var(--primary-color);
+}
+
+.advertising-header-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.advertising-nodata-text {
+  margin-top: 20px;
+}
